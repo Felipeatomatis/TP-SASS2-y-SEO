@@ -1,3 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "League Spartan", sans-serif;
+}
+
+/* NAVBAR */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.animate__animated.animate__flash {
+  --animate-duration: 5s;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+.nav-link .nav-link:hover,
+.nav-link .nav-link:focus {
+  opacity: 0.65;
+  border-bottom: 2px solid #fff;
+}
+
+/* FIN NAVBAR */
+/* BOTONES */
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+/* FIN BOTONES */
+/* TITULOS DE SECCIONES */
+.title {
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+/* FIN TITULOS DE SECCIONES */
+/* CARDS IMAGES */
+.card {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+}
+.card img {
+  height: 100%;
+}
+
+/* FIN CARDS IMAGES */
+/* PUBLICIDAD */
+.carousel-inner {
+  border: 2px solid #000;
+}
+
+/* FIN PUBLICIDAD */
+/* ARTICULO ASIDE */
+.aside-container {
+  padding: 1rem;
+}
+
+/* FIN ARTICULO ASIDE */
+/* FOOTER */
+.container {
+  width: auto;
+}
+
+.color-footer {
+  background-color: #000;
+}
+
+.footer-content {
+  background-color: #212121;
+  color: white;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 1.5rem;
+  padding: 2px;
+  text-align: center;
+  color: #575555;
+}
+
+.redes__icons {
+  text-align: center;
+}
+
+.redes__icons a i {
+  margin-left: 1rem;
+}
+
+.fa-facebook {
+  font-size: 40px;
+  color: #575555;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fa-twitter {
+  font-size: 40px;
+  color: #575555;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fa-whatsapp {
+  font-size: 40px;
+  color: #575555;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  bottom: 30px;
+  right: 30px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+  color: #575555;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  bottom: 30px;
+  right: 30px;
+}
+
+/* FIN FOOTER */
 
 /*# sourceMappingURL=style.css.map */
