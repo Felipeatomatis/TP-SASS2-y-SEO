@@ -1,0 +1,17 @@
+@mixin theme ($light-theme: true) {
+    @if $light-theme {
+        background-color: $text-color;
+        color: $primary-color;
+    }
+}
+
+@mixin icons {
+    font-size: 40px;
+    color: #575555;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    bottom: 30px;
+    right: 30px;
+}
