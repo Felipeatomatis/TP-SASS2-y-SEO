@@ -9,4 +9,13 @@ $font-weights: (
     "bold": 700,
 );
 
+/* EXTEND */
+
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+}
+
 
