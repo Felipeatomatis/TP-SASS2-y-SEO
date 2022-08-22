@@ -27,18 +27,18 @@ body {
 /* BOTONES */
 
 .btn-primary {
-    background-color: #000;
-    color: #fff;
+    background-color: map-get($colors, color-black);
+    color: map-get($colors, color-white);
 }
 
 .btn {
-    color: #fff;
+    color: map-get($colors, color-white);
     border: 1px solid #fff;
 }
     .btn:hover,
     .btn:focus {
-    color: #000;
-    background-color: #fff;
+    color: map-get($colors, color-black);
+    background-color: map-get($colors, color-white);
     border: 1px solid #000;
 }
 
